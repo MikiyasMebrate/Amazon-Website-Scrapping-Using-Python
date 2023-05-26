@@ -3,8 +3,8 @@ import telebot
 import requests
 from bs4 import BeautifulSoup
 
-BOT_TOKEN = os.environ.get('6162457611:AAHMDK5z-eLg1lTirbH7QIM5DSWOt4zBufk')
-bot = telebot.TeleBot('6162457611:AAHMDK5z-eLg1lTirbH7QIM5DSWOt4zBufk')
+BOT_TOKEN = os.environ.get('YOUR BOT API TOCKEN')
+bot = telebot.TeleBot('YOUR BOT API TOCKEN')
 
 @bot.message_handler(commands=['start', 'hello'])
 def send_welcome(message):
